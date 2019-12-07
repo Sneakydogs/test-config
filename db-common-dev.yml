@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.1.108:3306/test?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: example
+    hikari:
+      connection-timeout: 20000
+      minimum-idle: 5
+      maximum-pool-size: 12
+      idle-timeout: 300000
+      max-lifetime: 1200000
+      auto-commit: true
+      connection-test-query: select 1
+
+mybatis:
+  mapper-locations: classpath:sqlmap/*.xml
+  type-aliases-package: com.example.test.demo.data.domain
+  type-handlers-package: com.example.test.demo.data.encrypt.typehandler
