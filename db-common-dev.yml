@@ -13,3 +13,8 @@ spring:
       max-lifetime: 1200000
       auto-commit: true
       connection-test-query: select 1
+
+
+idworkerCfg:
+    workerId: 1
+    dataCenterId: 1
