@@ -15,6 +15,6 @@ spring:
       connection-test-query: select 1
 
 
-idworkerCfg:
+idworker:
     workerId: 1
     dataCenterId: 1
