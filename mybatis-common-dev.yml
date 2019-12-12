@@ -1,0 +1,4 @@
+mybatis:
+  mapper-locations: classpath:sqlmap/*.xml
+  type-aliases-package: com.example.test.demo.data.domain
+  type-handlers-package: com.example.test.demo.data.encrypt.typehandler
