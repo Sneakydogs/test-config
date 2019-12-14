@@ -3,7 +3,7 @@ db:
  password: 3415215335
  
 
-jwtToken:
+jwttoken:
   enable: true
   cert: demo.p12
   password: "{cipher}AQBlDIAVDhFyaZstF8zXy4AtX7WoeCaIwI58qnlWChfEWGLAsU/WOvfaSsPOEMtWH1YggtbOTpcth0Zn7jjt4yOAv2HZoIdIoaYnQybLH2f0UG4H8lo9+RTRW+EkG+w3msct5Yy63B4guZSHBBUcMTilm2TD0bMSISyhXjsgmQKLKvd97Jl/aTsNa0OjvMf/vgW9cFMIN+n8u4DZcjo7/OUAdOPuokTsucA67eP/UfnSBYZea/lik4ZJmVjsbyupAZjutomTnzHx1rsHEkQS/R2FV22Ms28l4tMo5u3r+/tUZXviQgiTJpGjM8Xc003rRHoueI0bPSqqIBwqw3MbICozU9LowPiH484Qps0RKel+oQa/6Dcxh0182bZAvLXo/NI="
