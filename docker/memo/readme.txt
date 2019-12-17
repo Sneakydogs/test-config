@@ -1,9 +1,15 @@
 #vi /etc/docker/daemon.json
 
-{"allow-nondistributable-artifacts": ["192.168.56.104:5000"]}
+{
+   "allow-nondistributable-artifacts": ["192.168.56.104:5000"]
+}
 
 #systemctl daemon-reload 
 #systemctl restart docker
+
+docker.service
+
+insecure-registry=192.168.56.104:5000
 
 
 开启docker远程
