@@ -2,9 +2,9 @@ spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://192.168.1.102:3306/test?useUnicode=true&characterEncoding=utf8
+    url: jdbc:mysql://192.168.1.111:3306/test?useUnicode=true&characterEncoding=utf8
     username: root
-    password: example
+    password: example@123.
     hikari:
       connection-timeout: 20000
       minimum-idle: 5
