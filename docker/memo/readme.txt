@@ -1,11 +1,10 @@
 #vi /etc/docker/daemon.json
-{
-    "insecure-registries": ["<ip>:5000"] 
-}
+
+{"allow-nondistributable-artifacts": ["192.168.56.104:5000"]}
+
 #systemctl daemon-reload 
 #systemctl restart docker
 
-{"insecure-registries": ["192.168.56.104:5000"]} 
 
 开启docker远程
 # /etc/systemd/system/docker.service.d/override.conf
