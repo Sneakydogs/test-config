@@ -4,7 +4,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://192.168.56.104:3306/test?useUnicode=true&characterEncoding=utf8
     username: root
-    password: example@123.
+    password: example
     hikari:
       connection-timeout: 20000
       minimum-idle: 5
