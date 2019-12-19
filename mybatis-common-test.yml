@@ -1,4 +1,11 @@
 mybatis:
   mapper-locations: classpath:sqlmap/*.xml
-  type-aliases-package: com.example.test.demo.data.domain
+  type-aliases-package: com.example.test.demo.data.entity.UserInfo
   type-handlers-package: com.example.test.demo.data.encrypt.typehandler
+
+  
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql

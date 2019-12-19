@@ -7,14 +7,3 @@ idworkercfg:
   workerId: 1
   dataCenterId: 1
   
-  
-mybatis:
-  mapper-locations: classpath:sqlmap/*.xml
-  type-aliases-package: com.example.test.demo.data.entity.UserInfo
-
-  
-pagehelper:
-  helperDialect: mysql
-  reasonable: true
-  supportMethodsArguments: true
-  params: count=countSql
